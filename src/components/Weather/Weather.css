@@ -111,3 +111,16 @@ input:focus{
     transition: 0.4s;
     
 }
+
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
+.footer p {
+    color: white;
+    opacity: 0.3;
+}

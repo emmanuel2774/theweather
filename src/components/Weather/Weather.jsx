@@ -89,6 +89,10 @@ const Weather = () => {
             </div>
              : null }
           </div>
+
+          <div className="footer">
+            <p>&copy; 2022 Emmy.js</p>
+          </div>
     </div>
   )
 }
