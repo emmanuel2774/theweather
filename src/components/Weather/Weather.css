@@ -1,0 +1,113 @@
+h2,p  {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+   padding-top: 10%;
+  
+   
+   
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    outline: 0;
+    border-color: black;
+    border-width: 0 0 3px;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+}
+
+input:focus{
+    border-color: white;
+    transition: 0.5s;
+}
+
+.Rainy {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/Rainy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.Cloudy {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/Cloudy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.Snowy {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/Snowy2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.Sunny {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/Sunny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.Clear {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/Clear.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.Default {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/backgorund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.weather-info-container{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.weather-info-container  h2 {
+    letter-spacing: 0.1rem;
+}
+
+.weather-info-container p {
+    font-size: 40px;
+}
+
+
+
+.additional-info-bar {
+    margin: 0 auto;
+    height: 10%;
+    width: 60%;
+    background-color: rgba(255,255,255,0.1);
+    margin-top: 7%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    transition: 0.4s;
+    
+}
