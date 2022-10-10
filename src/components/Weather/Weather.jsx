@@ -7,11 +7,12 @@ import {toast} from "react-toastify"
 const Weather = () => {
   const [data, setData] = useState({})
   const [Location, setLocation] = useState("")
+  const API_KEY = process.env.REACT_APP_API_KEY 
 
   var background = null
 
   var infoBar = null
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${Location}&units=imperial&appid=03751a7c6bad8ec953ad7940bb53a17e`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${Location}&units=imperial&appid=${API_KEY}`
 
   const handleChange = (e) => {
     setLocation(e.target.value)
